@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color:white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+
+}
+  .box-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+    
+  }
+  #editor{
+    width: 50%;
+    height: 80vh;
+    resize: none;
+    font-size: 18px;
+    background-color: white;
+    color: #2f2f2f;
+    border-radius: 20px;
+    border-color: rgb(54, 54, 197);
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 20px;
+  }
+
+  #preview{
+    width: 50%;
+    height: 80vh;
+    font-size: 18px;
+    background-color: #2f2f2f;
+    color: white;
+    border-radius: 20px;
+    border-color: rgb(54, 54, 197);
+    padding: 10px;
+    margin-left: 50%;
+    overflow: auto;
+  }
+
+  img{
+    max-width: 100%;
+  }
+
